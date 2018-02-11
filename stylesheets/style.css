@@ -1,0 +1,262 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	font-size: 18px;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+
+#navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+	background-color: transparent;
+}
+
+#navbar li {
+	display: inline-block;
+	padding-top: 20px;
+}
+
+#navbar li a {
+	color: #333;
+	font-family: "Raleway", cursive;
+	font-size: 1.50em;
+	text-align: center;
+	opacity: 0.6;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#navbar li a:hover {
+	opacity: 1.0;
+}
+
+#iconbar {
+	position: absolute;
+	top: 70%;
+	width: 100%;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+	background-color: transparent;
+}
+
+#iconbar li {
+	display: inline-block;
+}
+
+#iconbar li a {
+	color: #fff;
+	text-align: center;
+	opacity: 0.6;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#iconbar li #github:hover {
+	color: #333;
+	opacity: 1.0;
+}
+
+#iconbar li #facebook:hover {
+	color: #3b5998;
+	opacity: 1.0;
+}
+
+#iconbar li #twitter:hover {
+	color: #0084b4;
+	opacity: 1.0;
+}
+
+#iconbar li #linkedin:hover {
+	color: #0077B5;
+	opacity: 1.0;
+}
+
+#skillbar .title {
+	font-size: 1.2em;
+	font-weight: bold;	
+}
+
+#skillbar #skill-item {
+	padding: 20px;
+}
+
+#projectbar .title {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#projectbar #project-item {
+	padding: 20px;
+}
+
+#projectbar a {
+	text-decoration: none;
+	color: #333;
+}
+
+#projectbar .meta hr {
+	background-color: #e8e8ee;
+	height: 1px;
+}
+
+#projectbar a:hover {
+	background-color: #e8e8ee;
+}
+
+#contactbar {
+	list-style-type: none;
+}
+
+#contactbar li {
+	padding: 10px;
+	color: #333; 
+}
+
+#contactbar li a {
+	text-decoration: none;
+	color: #333;
+}
+
+
+.parallax {
+	position: relative;
+	opacity: 0.7;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#intro {
+	background-image: url("../images/intro.jpg");
+	min-height: 100%; 
+}
+
+#me {
+	background-image: url("../images/me.jpg");
+	min-height: 300px; 
+}
+
+#skills {
+	background-image: url("../images/skills.jpg");
+	min-height: 300px; 
+}
+
+#projects {
+	background-image: url("../images/projects.jpg");
+	min-height: 300px; 
+}
+
+#contact {
+	background-image: url("../images/contact.jpg");
+	min-height: 250px; 
+}
+
+.section {
+	text-align: center;
+	padding: 50px 80px;
+}
+
+.light {
+	background-color: #f4f4f4;
+	color: #666;
+}
+
+.dark {
+	background-color: #282e34;
+	color: #ddd;
+}
+
+.black {
+	background-color: #000;
+}
+
+.caption {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	margin: 0 auto;
+	font-weight: 900;
+	text-align: center;
+	color: #fff;
+	font-size: 1.5em;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.quotes {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 1.2em; 
+}
+
+.ptext {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.name-border {
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
+}
+
+.transparent {
+	background-color: transparent;
+}
+
+.shadow {
+	box-shadow: 0 12px 18px -12px;
+}
+
+.footer {
+	padding-bottom: 10px;
+}
+
+#contact-form {
+	text-align: left;
+}
+
+#contact-form input {
+	border: 0;
+	border-bottom: 2px solid #777;
+	background-color: transparent;
+	box-shadow: none;
+	font-family: "Raleway", cursive;
+	font-size: 1.1em;
+	font-weight: 700; 
+}
+
+#contact-form textarea {
+	border: 0;
+	border-bottom: 2px solid #777;
+	background-color: transparent;
+	box-shadow: none;
+	font-family: "Raleway", cursive;
+	font-size: 1.0em;
+	font-weight: 500;
+}
+
+#contact-form button {
+	margin: 0 auto;
+	font-family: "Raleway", cursive;
+	font-size: 1.0em;
+	font-weight: 700;
+	color: #777;
+	background-color: transparent;
+}
