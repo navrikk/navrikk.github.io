@@ -108,10 +108,6 @@ html, body {
 	height: 1px;
 }
 
-#projectbar a:hover {
-	background-color: #e8e8ee;
-}
-
 #contactbar {
 	list-style-type: none;
 }
