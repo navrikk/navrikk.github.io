@@ -1,5 +1,5 @@
 $('#skillbar #skill-item').hover(function() {
-	$(this).toggleClass('animated pulse');
+	$(this).toggleClass('animated bounce');
 });
 
 $('#projectbar #project-item').hover(function() {
