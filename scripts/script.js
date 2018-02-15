@@ -1,13 +1,13 @@
 $('#skillbar #skill-item').hover(function() {
-	// $(this).toggleClass('animated pulse');
+	$(this).toggleClass('animated pulse');
 });
 
 $('#projectbar #project-item').hover(function() {
-	// $(this).toggleClass('animated pulse');
+	$(this).toggleClass('animated pulse');
 });
 
 $('#contactbar li').hover(function() {
-	// $(this).toggleClass('animated pulse');
+	$(this).toggleClass('animated pulse');
 });
 
 $('.footer').hover(function() {
