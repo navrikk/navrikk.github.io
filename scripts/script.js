@@ -3,7 +3,7 @@ $('#skillbar #skill-item').hover(function() {
 });
 
 $('#projectbar #project-item').hover(function() {
-	$(this).toggleClass('animated pulse');
+	$(this).toggleClass('animated bounce');
 });
 
 $('#contactbar li').hover(function() {
